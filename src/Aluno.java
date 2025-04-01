@@ -8,10 +8,15 @@ public class Aluno {
     double cp3;
     double challenge;
     double gs;
+    double mediaCp;
+
+
+
 
     double calcularMedia(){
+
         double notaFinal;
-        notaFinal = (cp + cp2 + cp3)/3 + challenge + gs /3;
+        notaFinal = mediaCp * 0.2 + challenge * 0.2 + gs * 0.6;
         return notaFinal;
     }
 

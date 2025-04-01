@@ -23,6 +23,8 @@ public class Principal {
         System.out.println("Digite a nota da cp3");
         double cp3 = leitor.nextDouble();
 
+        double mediaCp = (cp + cp2 + cp3) /3;
+
         System.out.println("Digite a nota do challenge");
         double challenge = leitor.nextDouble();
 
@@ -44,7 +46,7 @@ public class Principal {
 
       double media =  aluno1.calcularMedia();
 
-        System.out.println("A média final ficou" + media);
+        System.out.println("A média final ficou " + media);
 
 
     }
